@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="80" viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="80" rx="8" fill="#F4E9D7"/>
+  <g transform="translate(12,12)">
+    <circle cx="28" cy="28" r="24" fill="#A33E2B"/>
+    <path d="M20 24 C24 18, 36 18, 40 24" stroke="#F4E9D7" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="64" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#2E2E2E">Trattoria</text>
+  </g>
+</svg>
+
