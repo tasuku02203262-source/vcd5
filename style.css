@@ -54,7 +54,13 @@ body{
   align-items:center;
   margin:18px 0;
 }
-.hero img{ width:48%; border-radius:var(--radius); object-fit:cover; }
+.hero img{
+display: flex;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;}
 
 /* Main layout */
 .main{
@@ -105,17 +111,16 @@ body{
 
 /* 画像領域 */
 .menu-card .photo {
-	display: flex;
+  display: flex;
   width: 100%;
   height: 0;
-  padding-top: 75%; /* 4:3 比率 */
+  padding-top: 75%; 
   position: relative;
   background: #f6f6f6;
 }
 .menu-card .photo img {
 	
-	display: flex;
-
+  display: flex;
   position: absolute;
   inset: 0;
   width: 100%;
