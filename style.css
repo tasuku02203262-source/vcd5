@@ -14,6 +14,7 @@ body{
   color:var(--text);
   background:var(--bg);
   line-height:1.6;
+ background-color: #A65152;
 }
 
 .container{
